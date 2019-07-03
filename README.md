@@ -7,8 +7,8 @@ Can use it with your favorite editor as a template for starting a new vhd/vhdl f
 Clone the skeleton.vhd file to your local ~/.vim/templates/ directory then add these lines in your .vimrc: 
 
 ```vimrc
-autocmd BufNewFile *.vhd 0r ~/.vim/skeleton.vhd
-autocmd BufNewFile *.vhdl 0r ~/.vim/skeleton.vhd
+autocmd BufNewFile *.vhd 0r ~/.vim/templates/skeleton.vhd
+autocmd BufNewFile *.vhdl 0r ~/.vim/templates/skeleton.vhd
 ```
 
 Reload your .vimrc (or close then open Vim)
